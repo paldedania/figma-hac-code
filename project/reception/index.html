@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Clinic Patient Stream at CalmWait, South Pavilion Clinic." name="description"/>
+  <title>
+   Clinic Patient Stream | CalmWait
+  </title>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="reception-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <div class="workspace staff-shell">
+   <!-- Shared navigation stays in normal document flow at every viewport. -->
+   <aside class="sidebar">
+    <a class="brand" href="../home/index.html">
+     <span class="logo-tile">
+      <img alt="" class="icon" src="../assets/icons/logo.svg"/>
+     </span>
+     <span>
+      <strong class="brand-name">
+       CalmWait
+      </strong>
+      <span class="brand-caption">
+       SOUTH PAVILION CLINIC
+      </span>
+     </span>
+    </a>
+    <nav aria-label="Primary" class="side-nav">
+     <a aria-current="page" href="../reception/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-queue.svg"/>
+      </span>
+      Live Queue
+     </a>
+     <a href="../reception/index.html#doctor">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-doctor.svg"/>
+      </span>
+      Doctor Pacing &amp; Rooms
+     </a>
+     <a href="../reception/index.html#broadcast">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-comms.svg"/>
+      </span>
+      Patient Communications
+     </a>
+     <a href="../analytics/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-analytics.svg"/>
+      </span>
+      Analytics &amp; Reports
+     </a>
+     <a href="../about/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-settings.svg"/>
+      </span>
+      Clinic Settings
+     </a>
+    </nav>
+    <section class="sidebar-note">
+     <p class="eyebrow">
+      Temporary leave
+     </p>
+     <p>
+      Need coffee or fresh air?
+     </p>
+     <a href="../step-out/index.html">
+      Step Out
+     </a>
+    </section>
+    <footer class="sidebar-footer">
+     <p>
+      Main Campus
+      <br/>
+      Level 1 • South Pavilion
+     </p>
+     <a href="../contact/index.html#help">
+      <img alt="" class="icon" src="../assets/icons/help.svg"/>
+      Assistance &amp; FAQs
+     </a>
+    </footer>
+   </aside>
+   <div class="page">
+    <header class="topbar">
+     <div class="topbar-status">
+      <span class="badge">
+       ● RECEPTION DESK A ONLINE
+      </span>
+      <span class="muted">
+       •   Wait times nominal (under 12m)
+      </span>
+     </div>
+     <nav aria-label="Account and help" class="topbar-actions">
+      <a class="btn btn-secondary" href="../contact/index.html#help">
+       <img alt="" class="icon" src="../assets/icons/headset.svg"/>
+       Help / Attendant
+      </a>
+      <a aria-label="Patient profile" class="avatar" href="../about/index.html">
+       <img alt="" class="icon" src="../assets/icons/profile.svg"/>
+      </a>
+     </nav>
+    </header>
+    <!-- Page content. Values reproduce the Figma sample, not a live clinical feed. -->
+    <main class="container" id="main-content">
+     <header class="page-heading">
+      <div>
+       <h1>
+        Clinic Patient Stream
+       </h1>
+       <p>
+        Live Queue Console • South Pavilion • Desk A
+       </p>
+      </div>
+      <div class="actions">
+       <nav class="actions">
+        <a class="btn btn-secondary" href="#doctor">
+         Doctor pacing
+        </a>
+        <a class="btn btn-secondary" href="#broadcast">
+         Delay Blast
+        </a>
+        <a class="btn btn-secondary" href="#priority">
+         Triage Override
+        </a>
+       </nav>
+      </div>
+     </header>
+     <div class="stats">
+      <article class="stat">
+       <p class="eyebrow">
+        Waiting in pavilion
+       </p>
+       <strong class="stat-value">
+        12
+       </strong>
+       <p class="small muted">
+        8 on schedule • 4 approaching buffer
+       </p>
+      </article>
+      <article class="stat">
+       <p class="eyebrow">
+        Stepped out (held)
+       </p>
+       <strong class="stat-value">
+        3
+       </strong>
+       <p class="small muted">
+        2 within perimeter • 1 returning now
+       </p>
+      </article>
+      <article class="stat">
+       <p class="eyebrow">
+        Average wait now
+       </p>
+       <strong class="stat-value">
+        ~25 min
+       </strong>
+       <p class="small muted">
+        Pacing: Nominal • Target SLA ≤ 30m
+       </p>
+      </article>
+      <article class="stat">
+       <p class="eyebrow">
+        Priority triage cases
+       </p>
+       <strong class="stat-value">
+        2
+       </strong>
+       <p class="small muted">
+        1 Clinical urgent • 1 Mobility aid
+       </p>
+      </article>
+     </div>
+     <div class="content-columns">
+      <div class="main-column">
+       <section class="card">
+        <h2 class="card-title">
+         Clinic Patient Stream
+        </h2>
+        <p class="small muted">
+         All Patients (15) • Waiting In Pavilion (12) • Stepped Out (3)
+        </p>
+        <ul class="staff-patients">
+         <li>
+          <strong class="staff-token">
+           A-20
+          </strong>
+          <div class="grow">
+           <h3>
+            Elena R.
+           </h3>
+           <p class="small muted">
+            General Checkup • Self-Kiosk
+           </p>
+           <span class="badge">
+            In Consultation
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:12 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            31m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-21
+          </strong>
+          <div class="grow">
+           <h3>
+            Marcus T.
+           </h3>
+           <p class="small muted">
+            Follow-up Lab Review
+           </p>
+           <span class="badge">
+            Calling / Ready
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:15 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            28m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-22
+          </strong>
+          <div class="grow">
+           <h3>
+            Sara K.
+           </h3>
+           <p class="small muted">
+            Triage Tier 2 • Pre-vitals Taken
+           </p>
+           <span class="badge">
+            Priority Triage
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:20 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            23m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-23
+          </strong>
+          <div class="grow">
+           <h3>
+            Vikram S.
+           </h3>
+           <p class="small muted">
+            Prescription Refill • App Registered
+           </p>
+           <span class="badge">
+            Stepped Out • Protected Hold
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:24 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            19m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-24
+          </strong>
+          <div class="grow">
+           <h3>
+            Aarav S.
+           </h3>
+           <p class="small muted">
+            Pediatric Consultation (Minor)
+           </p>
+           <span class="badge">
+            Waiting in Lounge
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:29 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            14m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-25
+          </strong>
+          <div class="grow">
+           <h3>
+            Priya N.
+           </h3>
+           <p class="small muted">
+            Annual Health Scan • Kiosk
+           </p>
+           <span class="badge">
+            Waiting in Lounge
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:33 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            10m
+           </p>
+          </div>
+         </li>
+         <li>
+          <strong class="staff-token">
+           A-26
+          </strong>
+          <div class="grow">
+           <h3>
+            David L.
+           </h3>
+           <p class="small muted">
+            Hold Threshold Overdue
+           </p>
+           <span class="badge">
+            Stepped Out • Grace +4m
+           </span>
+          </div>
+          <div class="small">
+           <span class="eyebrow">
+            Check-in
+           </span>
+           <p>
+            10:35 AM
+           </p>
+           <span class="eyebrow">
+            Wait
+           </span>
+           <p>
+            8m
+           </p>
+          </div>
+         </li>
+        </ul>
+        <p class="small muted">
+         Showing 7 of 15 queued patients • Sample queue from Figma
+        </p>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Active Boarding Pass Telemetry
+        </h2>
+        <p class="eyebrow">
+         Boarding pass stub #CP-8841
+        </p>
+        <h3 class="section-gap">
+         Marcus T. (Token A-21)
+        </h3>
+        <p>
+         General Practice Follow-up • Bloodwork review
+        </p>
+        <div class="token-box section-gap">
+         <strong class="token">
+          A-21
+         </strong>
+         <span>
+          Currently calling
+         </span>
+        </div>
+        <div class="section-gap">
+         <dl class="metadata">
+          <div>
+           <dt>
+            Target room
+           </dt>
+           <dd>
+            Room 3
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Physician
+           </dt>
+           <dd>
+            Dr. S. Mehta
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Wait elapsed
+           </dt>
+           <dd>
+            28 min
+           </dd>
+          </div>
+         </dl>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Scan Returning Patient
+        </h2>
+        <p>
+         Confirm patient return in one step. Auto-restores pavilion slot.
+        </p>
+        <div class="scan-box section-gap">
+         <img alt="Sample boarding pass QR" height="144" src="../assets/icons/ticket-qr.svg" width="144"/>
+         <p>
+          Aim kiosk QR / safe pass
+         </p>
+        </div>
+        <p class="small muted section-gap">
+         Camera unavailable in this static preview. Use the manual token field to preview entry.
+        </p>
+        <form class="section-gap">
+         <div class="field">
+          <label for="manual-token">
+           Manual token
+          </label>
+          <input id="manual-token" name="manual-token" type="text" value="A-24"/>
+         </div>
+        </form>
+        <div class="banner section-gap">
+         <p class="eyebrow">
+          Active scanned result • Sample
+         </p>
+         <h3>
+          Token A-24 • Rahul S. is back
+         </h3>
+         <p>
+          Returned on time • Scanned at 11:02 AM • 3m buffer remaining
+         </p>
+        </div>
+       </section>
+      </div>
+      <aside aria-label="Visit details" class="rail">
+       <section class="card" id="doctor">
+        <h2 class="section-title">
+         Doctor Pacing &amp; Telemetry
+        </h2>
+        <h3>
+         Dr. S. Mehta • Room 3
+        </h3>
+        <form class="stack section-gap">
+         <div class="segments">
+          <label class="choice">
+           <input checked="" name="doctor-status" type="radio" value="0"/>
+           <span>
+            Available
+           </span>
+          </label>
+          <label class="choice">
+           <input name="doctor-status" type="radio" value="1"/>
+           <span>
+            In Consult
+           </span>
+          </label>
+          <label class="choice">
+           <input name="doctor-status" type="radio" value="2"/>
+           <span>
+            On Break
+           </span>
+          </label>
+          <label class="choice">
+           <input name="doctor-status" type="radio" value="3"/>
+           <span>
+            Delayed
+           </span>
+          </label>
+         </div>
+         <div class="banner">
+          <p class="eyebrow">
+           Current patient in room
+          </p>
+          <h3>
+           A-20 • Elena R.
+          </h3>
+          <p>
+           8m of 12m
+          </p>
+         </div>
+         <div class="field">
+          <label for="delay-reason">
+           Reason for delay / transition
+          </label>
+          <select id="delay-reason">
+           <option>
+            Specimen Handoff &amp; Sanitization
+           </option>
+           Urgent triage consultation
+           Clinical break
+          </select>
+         </div>
+         <div class="field">
+          <label for="expected-next-door-chime">
+           Expected next door chime
+          </label>
+          <input id="expected-next-door-chime" name="expected-next-door-chime" type="text" value="10:48 AM"/>
+         </div>
+         <p class="small muted">
+          Preview controls. No room telemetry is sent.
+         </p>
+        </form>
+       </section>
+       <div id="priority">
+        <section class="card">
+         <h2 class="card-title">
+          Clinical Priority Override
+         </h2>
+         <p>
+          Audited clinical re-sequencing.
+         </p>
+         <p class="section-gap">
+          <strong>
+           Selected queue patient:
+          </strong>
+          Token A-24 • Aarav S. (Pos #4)
+         </p>
+         <form class="section-gap">
+          <fieldset>
+           <legend>
+            Required reason for audit log
+           </legend>
+           <div class="segments">
+            <label class="choice">
+             <input checked="" name="priority" type="radio" value="0"/>
+             <span>
+              Urgent medical need (Triage Tier 2/3)
+             </span>
+            </label>
+            <label class="choice">
+             <input name="priority" type="radio" value="1"/>
+             <span>
+              Elderly, mobility, or accessibility need
+             </span>
+            </label>
+            <label class="choice">
+             <input name="priority" type="radio" value="2"/>
+             <span>
+              Emergency departmental referral handoff
+             </span>
+            </label>
+           </div>
+          </fieldset>
+         </form>
+         <div class="banner section-gap">
+          <p class="eyebrow">
+           Priority impact preview
+          </p>
+          <h3>
+           +4 to +6 min / case
+          </h3>
+          <p>
+           Emergency walk-in. Estimated impact: +8 to +12 minutes. Your position remains protected.
+          </p>
+         </div>
+        </section>
+       </div>
+       <section class="card" id="broadcast">
+        <h2 class="section-title">
+         Delay Broadcast Composer
+        </h2>
+        <p>
+         Transparent notifications reduce inquiries at the desk.
+        </p>
+        <form class="stack section-gap">
+         <div class="field">
+          <label for="delay-message">
+           Live message preview
+          </label>
+          <textarea id="delay-message">CalmWait Alert: We're running about 10 minutes behind. Dr. Mehta is currently attending to an urgent triage consultation. Your spot remains secured.</textarea>
+         </div>
+         <fieldset>
+          <legend>
+           Recipient target
+          </legend>
+          <div class="segments">
+           <label class="choice">
+            <input checked="" name="recipients" type="radio" value="0"/>
+            <span>
+             All Dr. Mehta • 15 queued patients
+            </span>
+           </label>
+           <label class="choice">
+            <input name="recipients" type="radio" value="1"/>
+            <span>
+             Waiting Lounge • 4 in room buffer
+            </span>
+           </label>
+          </div>
+         </fieldset>
+         <p class="small muted">
+          Sending broadcasts requires the clinic backend. No messages are sent by this preview.
+         </p>
+        </form>
+       </section>
+      </aside>
+     </div>
+    </main>
+    <footer class="support-footer">
+     <span>
+      CalmWait • South Pavilion Clinic
+     </span>
+     <nav aria-label="More pages">
+      <a href="../sign-in/index.html">
+       Sign in
+      </a>
+      <a href="../about/index.html">
+       Profile
+      </a>
+      <a href="../reception/index.html">
+       Reception
+      </a>
+      <a href="../analytics/index.html">
+       Analytics
+      </a>
+      <a href="../caregiver/index.html">
+       Caregiver
+      </a>
+      <a href="../settings/index.html">
+       Settings
+      </a>
+     </nav>
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

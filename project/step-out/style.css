@@ -1,0 +1,6 @@
+/* Step Out of Waiting Room: page-specific layout. Shared components live in css/global.css. */
+
+.return-window { display: flex; flex-direction: column; gap: 16px; background: var(--soft); padding: 24px; border-radius: 8px; }
+.return-window dd { font-size: 26px; color: var(--accent); }
+.safe-zone { display: flex; flex-direction: column; gap: 12px; align-items: center; justify-content: center; min-height: 180px; padding: 20px; background: #ddebe4; border-radius: 8px; text-align: center; }
+

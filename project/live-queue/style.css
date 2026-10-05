@@ -1,0 +1,2 @@
+/* Alias for the services screen; reuse its page-specific styling. */
+@import url("../services/style.css");

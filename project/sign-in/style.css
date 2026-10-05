@@ -1,0 +1,8 @@
+/* Secure Patient & Staff Portal: page-specific layout. Shared components live in css/global.css. */
+
+.sign-in-page .container { padding: 32px; max-width: 1280px; margin: 0 auto; }
+.sign-in-page .topbar { min-height: 80px; }
+.sample-pass { padding: 24px; border: 2px dashed var(--border); border-radius: 8px; background: var(--soft); }
+.sign-in-page .main-column, .sign-in-page .rail { flex: 1 1 46%; }
+@media (max-width: 767px) { .sign-in-page .container { padding: 20px 16px; } }
+

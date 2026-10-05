@@ -1,0 +1,18 @@
+/* My Visit: page-specific layout. Shared components live in css/global.css. */
+
+.home-page .main-column { flex: 1 1 66%; gap: 16px; }
+.home-page .rail { flex: 1 1 32%; gap: 16px; }
+.home-page .container { min-height: 1823px; }
+.visit-status h2 { font-size: 20px; }
+.status-icon { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; flex: 0 0 48px; background: var(--accent); border-radius: 8px; }
+.visit-status p .icon { display: inline-flex; }
+.patient-name { font-size: 28px; line-height: 36px; }
+.boarding-pass { padding: 24px 24px 0; }
+.pass-facts { padding: 16px; margin-top: 24px; background: var(--soft); border-radius: 8px; }
+.pass-stub { display: flex; align-items: center; gap: 20px; padding: 24px 0; margin-top: 32px; border-top: 2px dashed var(--border); }
+.pass-stub img { flex: 0 0 144px; }
+.velocity-graph { height: 80px; margin-top: 24px; background: url('../assets/images/wait-velocity.svg') center / 100% 56px no-repeat; }
+.floor-plan { display: flex; justify-content: center; align-items: center; min-height: 180px; background: #cbd5fb; border-radius: 8px; }
+@media (max-width: 1199px) { .home-page .main-column { flex-basis: 60%; } .home-page .rail { flex-basis: 36%; } .pass-stub { flex-wrap: wrap; } }
+@media (max-width: 767px) { .home-page .main-column, .home-page .rail { flex-basis: auto; } .home-page .container { min-height: 0; } .pass-stub { margin-top: 20px; } .boarding-pass > .row { flex-direction: column; } .boarding-pass > .row > .grow, .boarding-pass .token-box { width: 100%; } }
+

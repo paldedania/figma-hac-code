@@ -1,0 +1,101 @@
+{
+  "pages": {
+    "about": {
+      "html": true,
+      "css": true,
+      "images": 9
+    },
+    "alerts": {
+      "html": true,
+      "css": true,
+      "images": 9
+    },
+    "analytics": {
+      "html": true,
+      "css": true,
+      "images": 9
+    },
+    "blog": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "caregiver": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "contact": {
+      "html": true,
+      "css": true,
+      "images": 9
+    },
+    "home": {
+      "html": true,
+      "css": true,
+      "images": 22
+    },
+    "live-queue": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "profile": {
+      "html": true,
+      "css": true,
+      "images": 9
+    },
+    "progress": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "reception": {
+      "html": true,
+      "css": true,
+      "images": 10
+    },
+    "services": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "settings": {
+      "html": true,
+      "css": true,
+      "images": 8
+    },
+    "sign-in": {
+      "html": true,
+      "css": true,
+      "images": 3
+    },
+    "step-out": {
+      "html": true,
+      "css": true,
+      "images": 8
+    }
+  },
+  "errors": [],
+  "responsive": {
+    "page_count": 15,
+    "widths": [
+      1280,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "horizontal_overflow_failures": 0,
+    "broken_image_failures": 0
+  },
+  "restrictions": {
+    "javascript": false,
+    "css_grid": false,
+    "positioned_layouts": false,
+    "floats": false,
+    "html_tables": false,
+    "inline_css": false,
+    "frameworks": false
+  }
+}

@@ -1,0 +1,8 @@
+/* My Progress: page-specific layout. Shared components live in css/global.css. */
+
+.journey { display: flex; gap: 20px; padding: 24px; margin-bottom: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; list-style: none; }
+.journey li { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; text-align: center; }
+.journey li[aria-current] { color: var(--accent); }
+@media (max-width: 1199px) { .journey { flex-wrap: wrap; } .journey li { flex-basis: 26%; } }
+@media (max-width: 767px) { .journey { flex-direction: column; } .journey li { flex-direction: row; text-align: left; flex-wrap: wrap; } }
+

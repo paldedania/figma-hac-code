@@ -1,0 +1,2 @@
+/* Alias for the about screen; reuse its page-specific styling. */
+@import url("../about/style.css");

@@ -1,0 +1,7 @@
+/* Settings: page-specific layout. Shared components live in css/global.css. */
+
+.settings-page .container { max-width: 1120px; margin: 0 auto; }
+.display-preview { display: flex; flex-direction: column; gap: 16px; padding: 24px; border: 2px solid var(--accent); background: #ebf5ff; border-radius: 8px; }
+.display-preview > strong { font-size: 26px; }
+.settings-page details { margin-top: 16px; }
+

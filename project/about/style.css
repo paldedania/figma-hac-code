@@ -1,0 +1,7 @@
+/* Patient Profile & Care Preferences: page-specific layout. Shared components live in css/global.css. */
+
+.about-page .avatar { width: 64px; height: 64px; flex-basis: 64px; font-size: 24px; }
+.about-page .main-column { flex-basis: 58%; }
+.about-page .rail { flex-basis: 40%; }
+.about-page .token-box { padding: 28px; }
+

@@ -1,0 +1,2 @@
+/* Alias for the blog screen; reuse its page-specific styling. */
+@import url("../blog/style.css");

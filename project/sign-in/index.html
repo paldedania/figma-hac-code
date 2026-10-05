@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Secure Patient &amp; Staff Portal at CalmWait, South Pavilion Clinic." name="description"/>
+  <title>
+   Secure Patient &amp; Staff Portal | CalmWait
+  </title>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="sign-in-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <div class="workspace">
+   <div class="page">
+    <header class="topbar">
+     <a class="brand" href="../home/index.html">
+      <span class="logo-tile">
+       <img alt="" class="icon" src="../assets/icons/logo.svg"/>
+      </span>
+      <span>
+       <strong class="brand-name">
+        CalmWait
+       </strong>
+       <span class="brand-caption">
+        SOUTH PAVILION CLINIC
+       </span>
+      </span>
+     </a>
+     <span class="badge">
+      Verified Partner Site
+     </span>
+     <nav class="topbar-actions">
+      <a class="btn btn-secondary" href="#intake">
+       Patient Check-In
+      </a>
+      <a class="btn btn-secondary" href="../contact/index.html#help">
+       Clinic Help
+      </a>
+     </nav>
+    </header>
+    <!-- Page content. Values reproduce the Figma sample, not a live clinical feed. -->
+    <main class="container" id="main-content">
+     <header class="page-heading">
+      <div>
+       <h1>
+        Secure Patient &amp; Staff Portal
+       </h1>
+       <p>
+        South Pavilion Ambulatory Care Centre
+       </p>
+      </div>
+      <div class="actions">
+       <span class="badge badge-success">
+        LIVE CLINIC: OPEN
+       </span>
+      </div>
+     </header>
+     <div class="content-columns">
+      <div class="main-column">
+       <div id="intake">
+        <section class="card">
+         <h2 class="card-title">
+          Patient Pass &amp; Intake
+         </h2>
+         <nav aria-label="Sign-in type" class="pill-nav">
+          <a href="#intake">
+           Patient Pass &amp; Intake
+          </a>
+          <a href="../reception/index.html">
+           Clinical Staff &amp; Reception
+          </a>
+         </nav>
+         <h3>
+          Instant Pass Lookup
+         </h3>
+         <p class="muted small">
+          Mobile SMS Verification • No Password Required
+         </p>
+         <div class="banner section-gap">
+          <h3>
+           Have a printed paper ticket?
+          </h3>
+          <p>
+           Point your mobile camera to restore your digital live pass.
+          </p>
+         </div>
+         <form action="../home/index.html" class="stack section-gap" method="get">
+          <div class="field">
+           <label for="ticket-token">
+            Queue Ticket Token / Pass #
+           </label>
+           <input id="ticket-token" placeholder="e.g. A-24 or P-108" required="" value="A-24"/>
+          </div>
+          <div class="field">
+           <label for="last-name">
+            Patient's Legal Last Name
+           </label>
+           <input autocomplete="family-name" id="last-name" placeholder="e.g. Mercer" required=""/>
+          </div>
+          <div class="field">
+           <label for="dob">
+            Date of Birth (Security Check)
+           </label>
+           <input autocomplete="bday" id="dob" required="" type="date"/>
+          </div>
+          <p class="small muted">
+           Design preview. Submitting opens the sample pass and does not authenticate or transmit these fields.
+          </p>
+          <button class="btn" type="submit">
+           Retrieve Live Waiting Pass
+          </button>
+         </form>
+         <div class="sample-pass section-gap">
+          <p class="eyebrow">
+           Boarding metaphor anatomy • Pass #A-24 Sample
+          </p>
+          <h3 class="section-gap">
+           TOKEN A-24
+          </h3>
+          <p>
+           Bay 3 • Dr. Thorne
+          </p>
+          <p class="small">
+           Checked-in: 09:42 AM • Stage 2 of 3: Vitals Complete
+          </p>
+         </div>
+         <p class="small muted section-gap">
+          Data Privacy Guarantee: Your mobile contact number is exclusively used for queue notices and room summons.
+         </p>
+        </section>
+       </div>
+       <section class="card">
+        <h2 class="card-title">
+         Need assistance checking in?
+        </h2>
+        <p>
+         Speak to Reception Desk A or request wheelchair and translation escort.
+        </p>
+        <p class="section-gap">
+         Ext. x4901
+        </p>
+       </section>
+      </div>
+      <aside aria-label="Visit details" class="rail">
+       <section class="card">
+        <h2 class="card-title">
+         South Pavilion Reliability
+        </h2>
+        <div class="row">
+         <img alt="92 percent transparency score" height="80" src="../assets/icons/transparency-gauge.svg" width="80"/>
+         <div>
+          <strong class="large-value accent">
+           92%
+          </strong>
+          <p>
+           Queue Transparency Index
+          </p>
+         </div>
+        </div>
+        <p class="section-gap">
+         92% of scheduled arrivals seen within 8 minutes of target pass window.
+        </p>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         The CalmWait Waiting Standard
+        </h2>
+        <ol class="list-clean">
+         <li class="row">
+          <span class="number number-complete">
+           1
+          </span>
+          <div class="stack-small">
+           <h3>
+            Predictable, Respectful Waiting
+           </h3>
+           <p>
+            Real-time queue tracking, accurate doctor pacing updates, and zero surprise waiting room leaps. You always know your exact sequence.
+           </p>
+          </div>
+         </li>
+         <li class="row">
+          <span class="number">
+           2
+          </span>
+          <div class="stack-small">
+           <h3>
+            Step-Out Freedom
+           </h3>
+           <p>
+            Activate a safe 15m or 30m leave pass from your phone to grab a tea in the atrium or visit the pharmacy without forfeiting your spot.
+           </p>
+          </div>
+         </li>
+         <li class="row">
+          <span class="number">
+           3
+          </span>
+          <div class="stack-small">
+           <h3>
+            Privacy First
+           </h3>
+           <p>
+            Verified anonymized tokens protect your dignity. Public screens do not list medical names.
+           </p>
+          </div>
+         </li>
+        </ol>
+       </section>
+       <figure class="card">
+        <img alt="Sunlit clinic atrium with indoor planting" class="full-image" src="../assets/images/clinic-atrium.jpeg"/>
+        <figcaption class="section-gap">
+         <span class="eyebrow">
+          South Pavilion healing environment
+         </span>
+         <h3>
+          Serene Waiting Spaces with Courtyard Garden Access
+         </h3>
+        </figcaption>
+       </figure>
+      </aside>
+     </div>
+    </main>
+    <footer class="support-footer">
+     <span>
+      CalmWait • South Pavilion Clinic
+     </span>
+     <nav aria-label="More pages">
+      <a href="../sign-in/index.html">
+       Sign in
+      </a>
+      <a href="../about/index.html">
+       Profile
+      </a>
+      <a href="../reception/index.html">
+       Reception
+      </a>
+      <a href="../analytics/index.html">
+       Analytics
+      </a>
+      <a href="../caregiver/index.html">
+       Caregiver
+      </a>
+      <a href="../settings/index.html">
+       Settings
+      </a>
+     </nav>
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

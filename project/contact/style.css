@@ -1,0 +1,8 @@
+/* Alerts & Notifications: page-specific layout. Shared components live in css/global.css. */
+
+.urgent-alert { background: #fff6ed; border-color: #efcc96; border-left: 4px solid #c77a17; }
+.alert-feed { display: flex; flex-direction: column; gap: 24px; }
+.alert-entry { padding: 0 0 24px 20px; border-left: 3px solid var(--border); border-bottom: 1px solid var(--border); }
+.alert-entry:first-child { border-left-color: var(--accent); }
+.alert-entry:last-child { border-bottom: 0; padding-bottom: 0; }
+

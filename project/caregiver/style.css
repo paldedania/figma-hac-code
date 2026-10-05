@@ -1,0 +1,10 @@
+/* Caregiver Dashboard: page-specific layout. Shared components live in css/global.css. */
+
+.caregiver-page .container { max-width: 1120px; margin: 0 auto; }
+.dose-list { display: flex; flex-direction: column; padding: 0; list-style: none; }
+.dose-list li { display: flex; flex-direction: column; gap: 12px; padding: 24px 0; border-bottom: 1px solid var(--border); }
+.dose-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.week-days { display: flex; justify-content: space-between; gap: 8px; margin: 24px 0; }
+.week-days span { display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 12px; }
+.week-days strong { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #e7f5eb; color: #16823c; }
+

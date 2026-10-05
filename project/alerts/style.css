@@ -1,0 +1,2 @@
+/* Alias for the contact screen; reuse its page-specific styling. */
+@import url("../contact/style.css");

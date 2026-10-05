@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="My Progress at CalmWait, South Pavilion Clinic." name="description"/>
+  <title>
+   My Progress | CalmWait
+  </title>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="blog-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <div class="workspace">
+   <!-- Shared navigation stays in normal document flow at every viewport. -->
+   <aside class="sidebar">
+    <a class="brand" href="../home/index.html">
+     <span class="logo-tile">
+      <img alt="" class="icon" src="../assets/icons/logo.svg"/>
+     </span>
+     <span>
+      <strong class="brand-name">
+       CalmWait
+      </strong>
+      <span class="brand-caption">
+       PATIENT PORTAL
+      </span>
+     </span>
+    </a>
+    <nav aria-label="Primary" class="side-nav">
+     <a href="../home/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/visit.svg"/>
+      </span>
+      Visit
+     </a>
+     <a href="../services/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/queue.svg"/>
+      </span>
+      Queue
+     </a>
+     <a aria-current="page" href="../blog/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/progress.svg"/>
+      </span>
+      Progress
+     </a>
+     <a href="../contact/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/alerts.svg"/>
+      </span>
+      Alerts
+     </a>
+    </nav>
+    <section class="sidebar-note">
+     <p class="eyebrow">
+      Temporary leave
+     </p>
+     <p>
+      Need coffee or fresh air?
+     </p>
+     <a href="../step-out/index.html">
+      Step Out
+     </a>
+    </section>
+    <footer class="sidebar-footer">
+     <p>
+      Main Campus
+      <br/>
+      Level 1 • South Pavilion
+     </p>
+     <a href="../contact/index.html#help">
+      <img alt="" class="icon" src="../assets/icons/help.svg"/>
+      Assistance &amp; FAQs
+     </a>
+    </footer>
+   </aside>
+   <div class="page">
+    <header class="topbar">
+     <div class="topbar-status">
+      <span class="badge">
+       ● RECEPTION DESK A ONLINE
+      </span>
+      <span class="muted">
+       •   Wait times nominal (under 12m)
+      </span>
+     </div>
+     <nav aria-label="Account and help" class="topbar-actions">
+      <a class="btn btn-secondary" href="../contact/index.html#help">
+       <img alt="" class="icon" src="../assets/icons/headset.svg"/>
+       Help / Attendant
+      </a>
+      <a aria-label="Patient profile" class="avatar" href="../about/index.html">
+       <img alt="" class="icon" src="../assets/icons/profile.svg"/>
+      </a>
+     </nav>
+    </header>
+    <!-- Page content. Values reproduce the Figma sample, not a live clinical feed. -->
+    <main class="container" id="main-content">
+     <header class="page-heading">
+      <div>
+       <h1>
+        My Progress
+       </h1>
+       <p>
+        Track your clinical pathway in real-time from reception intake through checkout.
+       </p>
+      </div>
+      <div class="actions">
+       <a class="btn btn-secondary" href="index.html">
+        Refresh
+       </a>
+      </div>
+     </header>
+     <section aria-label="Current visit" class="patient-strip patient-details">
+      <strong class="token accent">
+       A-24
+      </strong>
+      <div>
+       <strong>
+        Aarav Shah
+       </strong>
+       <p class="muted small">
+        Adult Outpatient • MRN #88204
+       </p>
+      </div>
+      <div>
+       <strong>
+        Dr. Mehta
+       </strong>
+       <p class="muted small">
+        General Medicine • Room 3
+       </p>
+      </div>
+      <div>
+       <span class="eyebrow">
+        Checked-in: 10:30 AM
+       </span>
+       <p class="accent">
+        Est. turn ~10:48 AM
+       </p>
+      </div>
+     </section>
+     <ol class="journey">
+      <li>
+       <span class="number number-complete">
+        ✓
+       </span>
+       <strong>
+        Checked in
+       </strong>
+       <span class="small muted">
+        10:12 AM • Kiosk 2
+       </span>
+      </li>
+      <li>
+       <span class="number number-complete">
+        ✓
+       </span>
+       <strong>
+        Vitals Taken
+       </strong>
+       <span class="small muted">
+        10:20 AM • Station B
+       </span>
+      </li>
+      <li aria-current="step">
+       <span class="number number-complete">
+        3
+       </span>
+       <strong>
+        Waiting
+       </strong>
+       <span class="small muted">
+        South Pavilion
+       </span>
+      </li>
+      <li>
+       <span class="number">
+        4
+       </span>
+       <strong>
+        Consultation
+       </strong>
+       <span class="small muted">
+        Room 3 • Dr. Mehta
+       </span>
+      </li>
+      <li>
+       <span class="number">
+        5
+       </span>
+       <strong>
+        Diagnostics
+       </strong>
+       <span class="small muted">
+        If ordered • Lab or Radiology
+       </span>
+      </li>
+      <li>
+       <span class="number">
+        6
+       </span>
+       <strong>
+        Checkout
+       </strong>
+       <span class="small muted">
+        Prescription &amp; Summary
+       </span>
+      </li>
+     </ol>
+     <div class="content-columns">
+      <div class="main-column">
+       <section class="card">
+        <h2 class="card-title">
+         South Pavilion Lounge
+        </h2>
+        <p class="eyebrow">
+         Current phase • Quiet &amp; seated
+        </p>
+        <div class="section-gap">
+         <p class="eyebrow">
+          Estimated wait range
+         </p>
+         <strong class="large-value accent">
+          20–35
+         </strong>
+         minutes
+        </div>
+        <p class="muted">
+         Ranges reflect thorough, attentive patient consultations rather than rigid automated slots.
+        </p>
+        <div class="section-gap">
+         <dl class="metadata">
+          <div>
+           <dt>
+            Queue position
+           </dt>
+           <dd>
+            3 patients ahead
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Room 3 live feed
+           </dt>
+           <dd>
+            Consulting Token A-20
+           </dd>
+          </div>
+         </dl>
+        </div>
+        <p class="section-gap">
+         <a class="btn" href="../step-out/index.html">
+          Step out for fresh air
+         </a>
+        </p>
+        <p class="small muted section-gap">
+         SMS Chime Armed (+1 ••• 4912). Stepping out holds your queue spot for up to 20 minutes without losing priority.
+        </p>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Visit Pathway Log
+        </h2>
+        <div class="stack">
+         <article>
+          <div class="card-heading">
+           <h3>
+            Triage &amp; Clinical Vitals
+           </h3>
+           <time>
+            10:20 AM
+           </time>
+          </div>
+          <p>
+           Nurse Station B (Nurse Henderson, RN). Initial diagnostic readings charted to electronic health record.
+          </p>
+          <div class="section-gap">
+           <dl class="metadata">
+            <div>
+             <dt>
+              Blood pressure
+             </dt>
+             <dd>
+              122/78
+             </dd>
+            </div>
+            <div>
+             <dt>
+              Heart rate
+             </dt>
+             <dd>
+              72 bpm
+             </dd>
+            </div>
+            <div>
+             <dt>
+              SpO2
+             </dt>
+             <dd>
+              99%
+             </dd>
+            </div>
+           </dl>
+          </div>
+         </article>
+         <article class="rule">
+          <div class="card-heading">
+           <h3>
+            Digital Intake Verified
+           </h3>
+           <time>
+            10:12 AM
+           </time>
+          </div>
+          <p>
+           Check-in completed at Kiosk 2. Verified insurance coverage (Blue Cross PPO) and signed treatment consent.
+          </p>
+         </article>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         South Pavilion Amenities
+        </h2>
+        <div class="link-list">
+         <span>
+          CalmWait-Guest
+         </span>
+         <span>
+          Herbal Tea &amp; Water
+         </span>
+         <span>
+          Quiet Zone Seating
+         </span>
+        </div>
+       </section>
+      </div>
+      <aside aria-label="Visit details" class="rail">
+       <section class="card">
+        <h2 class="card-title">
+         Consultation with Dr. Mehta
+        </h2>
+        <p class="muted">
+         Upcoming phase • Room 3, South Corridor • ~10–15 min
+        </p>
+        <p class="section-gap">
+         Dr. Mehta will conduct a thorough review of your symptoms and recent medical updates.
+        </p>
+        <div class="banner section-gap">
+         <h3>
+          What to Bring Into Room 3
+         </h3>
+         <ul class="section-gap">
+          <li>
+           Government ID or digital boarding pass token (A-24)
+          </li>
+          <li>
+           List of active prescriptions and medication dosages
+          </li>
+          <li>
+           Specific questions or notes on symptom duration
+          </li>
+         </ul>
+        </div>
+        <p class="section-gap">
+         Your device will play an alert chime and the hallway display boards will flash Token A-24 the moment Room 3 prepares for intake.
+        </p>
+       </section>
+       <details>
+        <summary>
+         Post-Consultation &amp; Lab Work
+        </summary>
+        <div class="disclosure-content">
+         <p>
+          If Dr. Mehta orders laboratory bloodwork or imaging scans, live indoor wayfinding directions will appear here on your phone screen.
+         </p>
+         <p>
+          Digital Discharge Summary • Ready upon departure
+         </p>
+        </div>
+       </details>
+       <section class="card">
+        <h2 class="card-title">
+         Need Direct Assistance?
+        </h2>
+        <p>
+         Desk A attendant is standing by to answer queue inquiries, provide physical assistance, or coordinate translation services.
+        </p>
+        <p class="section-gap">
+         <a class="btn btn-secondary" href="../contact/index.html#help">
+          Call Attendant (x4901)
+         </a>
+        </p>
+       </section>
+      </aside>
+     </div>
+    </main>
+    <footer class="support-footer">
+     <span>
+      CalmWait • South Pavilion Clinic
+     </span>
+     <nav aria-label="More pages">
+      <a href="../sign-in/index.html">
+       Sign in
+      </a>
+      <a href="../about/index.html">
+       Profile
+      </a>
+      <a href="../reception/index.html">
+       Reception
+      </a>
+      <a href="../analytics/index.html">
+       Analytics
+      </a>
+      <a href="../caregiver/index.html">
+       Caregiver
+      </a>
+      <a href="../settings/index.html">
+       Settings
+      </a>
+     </nav>
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

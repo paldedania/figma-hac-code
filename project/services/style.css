@@ -1,0 +1,11 @@
+/* Live Queue: page-specific layout. Shared components live in css/global.css. */
+
+.services-page .container { padding: 32px; }
+.wait-scale { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 24px 0 12px; font-size: 12px; }
+.wait-track { display: flex; height: 16px; margin-bottom: 12px; background: #e2effe; border-radius: 10px; padding-left: 30%; }
+.wait-track span { width: 32%; border-radius: 10px; background: #0a6e78; }
+.scenario { padding: 20px; border: 1px solid var(--border); border-radius: 8px; }
+.scenario:nth-child(2) { background: var(--soft); border-color: var(--accent); }
+.scenario-value { display: flex; margin: 12px 0; font-size: 28px; color: var(--accent); }
+@media (max-width: 767px) { .services-page .container { padding: 20px 16px; } .queue-item { flex-wrap: wrap; } }
+

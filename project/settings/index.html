@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Settings at CalmWait, South Pavilion Clinic." name="description"/>
+  <title>
+   Settings | CalmWait
+  </title>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="settings-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <div class="workspace">
+   <!-- Shared navigation stays in normal document flow at every viewport. -->
+   <aside class="sidebar">
+    <a class="brand" href="../home/index.html">
+     <span class="logo-tile">
+      <img alt="" class="icon" src="../assets/icons/logo.svg"/>
+     </span>
+     <span>
+      <strong class="brand-name">
+       CalmWait
+      </strong>
+      <span class="brand-caption">
+       PATIENT PORTAL
+      </span>
+     </span>
+    </a>
+    <nav aria-label="Primary" class="side-nav">
+     <a href="../home/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/visit.svg"/>
+      </span>
+      Visit
+     </a>
+     <a href="../services/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/queue.svg"/>
+      </span>
+      Queue
+     </a>
+     <a href="../blog/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/progress.svg"/>
+      </span>
+      Progress
+     </a>
+     <a href="../contact/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/alerts.svg"/>
+      </span>
+      Alerts
+     </a>
+    </nav>
+    <section class="sidebar-note">
+     <p class="eyebrow">
+      Temporary leave
+     </p>
+     <p>
+      Need coffee or fresh air?
+     </p>
+     <a href="../step-out/index.html">
+      Step Out
+     </a>
+    </section>
+    <footer class="sidebar-footer">
+     <p>
+      Main Campus
+      <br/>
+      Level 1 • South Pavilion
+     </p>
+     <a href="../contact/index.html#help">
+      <img alt="" class="icon" src="../assets/icons/help.svg"/>
+      Assistance &amp; FAQs
+     </a>
+    </footer>
+   </aside>
+   <div class="page">
+    <header class="topbar">
+     <div class="topbar-status">
+      <span class="badge">
+       ● RECEPTION DESK A ONLINE
+      </span>
+      <span class="muted">
+       •   Wait times nominal (under 12m)
+      </span>
+     </div>
+     <nav aria-label="Account and help" class="topbar-actions">
+      <a class="btn btn-secondary" href="../contact/index.html#help">
+       <img alt="" class="icon" src="../assets/icons/headset.svg"/>
+       Help / Attendant
+      </a>
+      <a aria-label="Patient profile" class="avatar" href="../about/index.html">
+       <img alt="" class="icon" src="../assets/icons/profile.svg"/>
+      </a>
+     </nav>
+    </header>
+    <!-- Page content. Values reproduce the Figma sample, not a live clinical feed. -->
+    <main class="container" id="main-content">
+     <header class="page-heading">
+      <div>
+       <h1>
+        Settings
+       </h1>
+       <p>
+        Customize your display, alerts, and caregivers for effortless reading and peace of mind.
+       </p>
+      </div>
+      <div class="actions">
+      </div>
+     </header>
+     <div class="content-columns">
+      <div class="main-column">
+       <section class="card">
+        <h2 class="card-title">
+         Live Display Preview
+        </h2>
+        <div class="display-preview">
+         <div class="card-heading">
+          <h3>
+           Morning Dose
+          </h3>
+          <span>
+           8:00 AM
+          </span>
+         </div>
+         <strong>
+          Lisinopril 10mg
+         </strong>
+         <p>
+          Take 1 tablet with full glass of water
+         </p>
+         <p class="small">
+          High Contrast: ON • Text Size: Large
+         </p>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Display &amp; Accessibility
+        </h2>
+        <p>
+         Adjust visuals to your comfort level
+        </p>
+        <form class="section-gap">
+         <fieldset>
+          <legend>
+           App Text Size
+          </legend>
+          <div class="segments">
+           <label class="choice">
+            <input checked="" name="text-size" type="radio" value="0"/>
+            <span>
+             Normal • 18px
+            </span>
+           </label>
+           <label class="choice">
+            <input name="text-size" type="radio" value="1"/>
+            <span>
+             Large • 22px
+            </span>
+           </label>
+           <label class="choice">
+            <input name="text-size" type="radio" value="2"/>
+            <span>
+             Extra • 26px
+            </span>
+           </label>
+          </div>
+         </fieldset>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            High-contrast mode
+           </strong>
+           <span class="muted small">
+            Sharper edges and enhanced clarity
+           </span>
+          </span>
+          <input checked="" name="high-contrast-mode" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Read-aloud voice
+           </strong>
+           <span class="muted small">
+            Speaks medication names and reminders clearly out loud
+           </span>
+          </span>
+          <input checked="" name="read-aloud-voice" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Reduce animations
+           </strong>
+           <span class="muted small">
+            Disables moving items for steadiness
+           </span>
+          </span>
+          <input checked="" name="reduce-animations" type="checkbox"/>
+         </label>
+         <p class="small muted section-gap">
+          These controls preview selection states only; they do not change device settings.
+         </p>
+        </form>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Reminders &amp; Alerts
+        </h2>
+        <p>
+         Keep track of your scheduled doses
+        </p>
+        <form class="section-gap">
+         <div class="field">
+          <label for="ringtone">
+           Alert Ringtone
+          </label>
+          <select id="ringtone">
+           <option>
+            Gentle Chime (High Pitch)
+           </option>
+           Standard
+          </select>
+         </div>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Loud urgent alarm
+           </strong>
+           <span class="muted small">
+            Plays an urgent reminder
+           </span>
+          </span>
+          <input checked="" name="loud-urgent-alarm" type="checkbox"/>
+         </label>
+         <fieldset class="section-gap">
+          <legend>
+           Remind again after (Snooze time)
+          </legend>
+          <div class="segments">
+           <label class="choice">
+            <input checked="" name="snooze" type="radio" value="0"/>
+            <span>
+             5 min
+            </span>
+           </label>
+           <label class="choice">
+            <input name="snooze" type="radio" value="1"/>
+            <span>
+             10 min
+            </span>
+           </label>
+           <label class="choice">
+            <input name="snooze" type="radio" value="2"/>
+            <span>
+             15 min
+            </span>
+           </label>
+          </div>
+         </fieldset>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Alert caregiver if dose is missed
+           </strong>
+           <span class="muted small">
+            Sends text to family if medication is not logged within 30 minutes
+           </span>
+          </span>
+          <input checked="" name="alert-caregiver-if-dose-is-missed" type="checkbox"/>
+         </label>
+        </form>
+       </section>
+      </div>
+      <aside aria-label="Visit details" class="rail">
+       <section class="card">
+        <h2 class="card-title">
+         Linked Caregivers
+        </h2>
+        <p>
+         2 trusted individuals linked to your schedule
+        </p>
+        <div class="stack section-gap">
+         <article>
+          <div class="row">
+           <span class="avatar">
+            AS
+           </span>
+           <div>
+            <h3>
+             Ananya Shah
+            </h3>
+            <p>
+             Daughter • Primary Contact
+            </p>
+            <a href="tel:+15552348901">
+             +1 (555) 234-8901
+            </a>
+            <p class="small muted">
+             Receives miss alerts
+            </p>
+           </div>
+          </div>
+          <details>
+           <summary>
+            Remove Caregiver
+           </summary>
+           <div class="disclosure-content">
+            <p>
+             Removing a caregiver would stop their dose alerts. This static preview does not remove anyone.
+            </p>
+           </div>
+          </details>
+         </article>
+         <article class="rule">
+          <div class="row">
+           <span class="avatar">
+            RM
+           </span>
+           <div>
+            <h3>
+             Dr. Rajesh Mehta
+            </h3>
+            <p>
+             Home Nurse
+            </p>
+            <a href="tel:+15557894321">
+             +1 (555) 789-4321
+            </a>
+            <p class="small muted">
+             Weekly reports only
+            </p>
+           </div>
+          </div>
+         </article>
+         <details>
+          <summary>
+           Invite a Caregiver
+          </summary>
+          <div class="disclosure-content">
+           <p>
+            Caregiver invitations require a connected account.
+           </p>
+          </div>
+         </details>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Profile &amp; Language
+        </h2>
+        <h3>
+         Aarav Shah
+        </h3>
+        <p>
+         Born: Aug 14, 1948 (Age 75)
+        </p>
+        <form class="section-gap">
+         <fieldset>
+          <legend>
+           Preferred Language
+          </legend>
+          <div class="segments">
+           <label class="choice">
+            <input checked="" name="preferred-language" type="radio" value="0"/>
+            <span>
+             English
+            </span>
+           </label>
+           <label class="choice">
+            <input name="preferred-language" type="radio" value="1"/>
+            <span>
+             ગુજરાતી
+            </span>
+           </label>
+           <label class="choice">
+            <input name="preferred-language" type="radio" value="2"/>
+            <span>
+             हिन्दी
+            </span>
+           </label>
+          </div>
+         </fieldset>
+        </form>
+        <div class="banner section-gap">
+         <p class="eyebrow">
+          Emergency contact
+         </p>
+         <p>
+          Ananya Shah:
+          <a href="tel:+15552348901">
+           +1 (555) 234-8901
+          </a>
+         </p>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Live Support Desk
+        </h2>
+        <p>
+         Free toll-free assistance is available 24 hours a day, 7 days a week.
+        </p>
+        <p class="section-gap">
+         <a class="btn btn-secondary" href="../contact/index.html#help">
+          Clinic assistance
+         </a>
+        </p>
+       </section>
+      </aside>
+     </div>
+    </main>
+    <footer class="support-footer">
+     <span>
+      CalmWait • South Pavilion Clinic
+     </span>
+     <nav aria-label="More pages">
+      <a href="../sign-in/index.html">
+       Sign in
+      </a>
+      <a href="../about/index.html">
+       Profile
+      </a>
+      <a href="../reception/index.html">
+       Reception
+      </a>
+      <a href="../analytics/index.html">
+       Analytics
+      </a>
+      <a href="../caregiver/index.html">
+       Caregiver
+      </a>
+      <a href="../settings/index.html">
+       Settings
+      </a>
+     </nav>
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

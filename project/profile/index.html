@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Patient Profile &amp; Care Preferences at CalmWait, South Pavilion Clinic." name="description"/>
+  <title>
+   Patient Profile &amp; Care Preferences | CalmWait
+  </title>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="about-page">
+  <a class="skip-link" href="#main-content">
+   Skip to main content
+  </a>
+  <div class="workspace staff-shell">
+   <!-- Shared navigation stays in normal document flow at every viewport. -->
+   <aside class="sidebar">
+    <a class="brand" href="../home/index.html">
+     <span class="logo-tile">
+      <img alt="" class="icon" src="../assets/icons/logo.svg"/>
+     </span>
+     <span>
+      <strong class="brand-name">
+       CalmWait
+      </strong>
+      <span class="brand-caption">
+       SOUTH PAVILION CLINIC
+      </span>
+     </span>
+    </a>
+    <nav aria-label="Primary" class="side-nav">
+     <a href="../reception/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-queue.svg"/>
+      </span>
+      Live Queue
+     </a>
+     <a href="../reception/index.html#doctor">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-doctor.svg"/>
+      </span>
+      Doctor Pacing &amp; Rooms
+     </a>
+     <a href="../reception/index.html#broadcast">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-comms.svg"/>
+      </span>
+      Patient Communications
+     </a>
+     <a href="../analytics/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-analytics.svg"/>
+      </span>
+      Analytics &amp; Reports
+     </a>
+     <a aria-current="page" href="../about/index.html">
+      <span class="glyph">
+       <img alt="" class="icon" src="../assets/icons/staff-settings.svg"/>
+      </span>
+      Clinic Settings
+     </a>
+    </nav>
+    <section class="sidebar-note">
+     <p class="eyebrow">
+      Temporary leave
+     </p>
+     <p>
+      Need coffee or fresh air?
+     </p>
+     <a href="../step-out/index.html">
+      Step Out
+     </a>
+    </section>
+    <footer class="sidebar-footer">
+     <p>
+      Main Campus
+      <br/>
+      Level 1 • South Pavilion
+     </p>
+     <a href="../contact/index.html#help">
+      <img alt="" class="icon" src="../assets/icons/help.svg"/>
+      Assistance &amp; FAQs
+     </a>
+    </footer>
+   </aside>
+   <div class="page">
+    <header class="topbar">
+     <div class="topbar-status">
+      <span class="badge">
+       ● RECEPTION DESK A ONLINE
+      </span>
+      <span class="muted">
+       •   Wait times nominal (under 12m)
+      </span>
+     </div>
+     <nav aria-label="Account and help" class="topbar-actions">
+      <a class="btn btn-secondary" href="../contact/index.html#help">
+       <img alt="" class="icon" src="../assets/icons/headset.svg"/>
+       Help / Attendant
+      </a>
+      <a aria-label="Patient profile" class="avatar" href="../about/index.html">
+       <img alt="" class="icon" src="../assets/icons/profile.svg"/>
+      </a>
+     </nav>
+    </header>
+    <!-- Page content. Values reproduce the Figma sample, not a live clinical feed. -->
+    <main class="container" id="main-content">
+     <header class="page-heading">
+      <div>
+       <h1>
+        Patient Profile &amp; Care Preferences
+       </h1>
+       <p>
+        Manage your contact details, waiting-room sensory accessibility needs, real-time summons notifications, and active clinic credentials.
+       </p>
+      </div>
+      <div class="actions">
+      </div>
+     </header>
+     <div class="content-columns">
+      <div class="main-column">
+       <section class="card">
+        <div class="row">
+         <span class="avatar">
+          ER
+         </span>
+         <div>
+          <h2>
+           Elena Rostova
+          </h2>
+          <p class="muted">
+           DOB: Mar 14, 1986 (38y) • Tier 1 Verified
+          </p>
+         </div>
+        </div>
+        <form class="stack section-gap">
+         <div class="field">
+          <label for="legal-full-name">
+           Legal Full Name
+          </label>
+          <input id="legal-full-name" name="legal-full-name" type="text" value="Elena Mariya Rostova"/>
+         </div>
+         <div class="field">
+          <label for="preferred-call-name">
+           Preferred Call Name
+          </label>
+          <input id="preferred-call-name" name="preferred-call-name" type="text" value="Elena"/>
+         </div>
+         <div class="form-row">
+          <div class="field">
+           <label for="mobile-number">
+            Mobile Number
+           </label>
+           <input id="mobile-number" name="mobile-number" type="tel" value="+1 (555) 234-8901"/>
+          </div>
+          <div class="field">
+           <label for="email-address">
+            Email Address
+           </label>
+           <input id="email-address" name="email-address" type="email" value="elena.rostova@healthmail.com"/>
+          </div>
+         </div>
+         <div class="field">
+          <label for="emergency-contact">
+           Emergency Contact
+          </label>
+          <input id="emergency-contact" name="emergency-contact" type="text" value="Mark Rostova — Spouse • Cell: (555) 882-1920"/>
+         </div>
+         <div class="field">
+          <label for="language">
+           Primary Consultation Language
+          </label>
+          <select id="language" name="language">
+           <option>
+            English (United States)
+           </option>
+           <option>
+            ગુજરાતી
+           </option>
+           <option>
+            हिन्दी
+           </option>
+          </select>
+         </div>
+         <p class="small muted">
+          Form preview. Changes stay on this page and are not saved to an account.
+         </p>
+        </form>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Waiting-Room &amp; Sensory Accommodations
+        </h2>
+        <p class="muted">
+         CalmWait adjusts waiting ambient levels, escort routing, and companion seating.
+        </p>
+        <form>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Low-Sensory Lounge Preference
+           </strong>
+           <span class="muted small">
+            Mutes public paging chimes and redirects your pass to South Alcove Quiet Pods.
+           </span>
+          </span>
+          <input checked="" name="low-sensory-lounge-preference" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Mobility &amp; Wheelchair Escort Assistance
+           </strong>
+           <span class="muted small">
+            Concierge escorts from check-in Bay B to the examination suite.
+           </span>
+          </span>
+          <input name="mobility-and-wheelchair-escort-assistance" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Clinical Medical Interpreter
+           </strong>
+           <span class="muted small">
+            Pre-assigns an interpreter before consultation.
+           </span>
+          </span>
+          <input name="clinical-medical-interpreter" type="checkbox"/>
+         </label>
+         <fieldset class="section-gap">
+          <legend>
+           Companion Waiting Seating Allocation
+          </legend>
+          <div class="segments">
+           <label class="choice">
+            <input checked="" name="seating" type="radio" value="0"/>
+            <span>
+             Waiting Alone
+            </span>
+           </label>
+           <label class="choice">
+            <input name="seating" type="radio" value="1"/>
+            <span>
+             +1 Companion
+            </span>
+           </label>
+           <label class="choice">
+            <input name="seating" type="radio" value="2"/>
+            <span>
+             Mobility Bay
+            </span>
+           </label>
+          </div>
+         </fieldset>
+         <div class="field section-gap">
+          <label for="access-notes">
+           Clinic Access &amp; Sensory Notes
+          </label>
+          <textarea id="access-notes" name="access-notes">Mild photophobia: prefers dimmed lounge seating. Spouse Mark will join inside Room 04.</textarea>
+         </div>
+        </form>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Queue Alerts &amp; Summons Routing
+        </h2>
+        <p>
+         Choose how the clinic signals when your turn approaches.
+        </p>
+        <form>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Direct SMS Summons
+           </strong>
+           <span class="muted small">
+            Sends countdown, door readiness alert, and room door code.
+           </span>
+          </span>
+          <input checked="" name="direct-sms-summons" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Browser Sound &amp; Haptic Vibration
+           </strong>
+           <span class="muted small">
+            Soft two-tone gentle chime when pass moves to Next in Line.
+           </span>
+          </span>
+          <input checked="" name="browser-sound-and-haptic-vibration" type="checkbox"/>
+         </label>
+         <label class="toggle-row">
+          <span>
+           <strong>
+            Post-Visit Queue Audit &amp; Summary
+           </strong>
+           <span class="muted small">
+            Receives visit timestamps and summary.
+           </span>
+          </span>
+          <input name="post-visit-queue-audit-and-summary" type="checkbox"/>
+         </label>
+        </form>
+       </section>
+      </div>
+      <aside aria-label="Visit details" class="rail">
+       <section class="card">
+        <h2 class="card-title">
+         Active Clinic Boarding Pass
+        </h2>
+        <p class="eyebrow">
+         Today • Oct 24
+        </p>
+        <div class="token-box section-gap">
+         <span class="eyebrow">
+          Priority token
+         </span>
+         <strong class="token">
+          A-24
+         </strong>
+         <span class="badge badge-success">
+          Vitals Ready
+         </span>
+        </div>
+        <div class="stack section-gap">
+         <dl class="metadata">
+          <div>
+           <dt>
+            Provider
+           </dt>
+           <dd>
+            Dr. Aris Thorne
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Assigned suite
+           </dt>
+           <dd>
+            Room 04
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Estimated call in
+           </dt>
+           <dd>
+            4 mins
+           </dd>
+          </div>
+          <div>
+           <dt>
+            Target time
+           </dt>
+           <dd>
+            10:48 AM
+           </dd>
+          </div>
+         </dl>
+         <a class="btn" href="../home/index.html">
+          Open Live Boarding Pass
+         </a>
+        </div>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Recent Queue Passes
+        </h2>
+        <ul class="queue-list">
+         <li class="queue-item">
+          <strong>
+           A-24
+          </strong>
+          <div class="grow">
+           <h3>
+            General Consultation
+           </h3>
+           <p class="small muted">
+            Today • Dr. A. Thorne • Active
+           </p>
+          </div>
+         </li>
+         <li class="queue-item">
+          <strong>
+           C-08
+          </strong>
+          <div class="grow">
+           <h3>
+            Cardiology Follow-up
+           </h3>
+           <p class="small muted">
+            Sep 12, 2024 • Dr. K. Patel • Wait: 18m
+           </p>
+          </div>
+         </li>
+         <li class="queue-item">
+          <strong>
+           L-12
+          </strong>
+          <div class="grow">
+           <h3>
+            Routine Blood Panel
+           </h3>
+           <p class="small muted">
+            Jul 03, 2024 • Lab Bay 2 • Wait: 12m
+           </p>
+          </div>
+         </li>
+        </ul>
+       </section>
+       <section class="card">
+        <h2 class="card-title">
+         Security &amp; Delegates
+        </h2>
+        <p class="muted">
+         Access control &amp; clinic kiosks.
+        </p>
+        <div class="stack section-gap">
+         <h3>
+          Two-Factor Passcode
+          <span class="badge badge-success">
+           Active
+          </span>
+         </h3>
+         <p>
+          SMS code sent on new clinic kiosk check-in
+         </p>
+         <h3>
+          Authorized Delegate
+         </h3>
+         <p>
+          Mark Rostova (Spouse) • Live Queue Viewer
+         </p>
+         <details>
+          <summary>
+           Other kiosk sessions
+          </summary>
+          <div class="disclosure-content">
+           <p>
+            Session management requires a connected account. No sessions are changed by this preview.
+           </p>
+          </div>
+         </details>
+        </div>
+       </section>
+      </aside>
+     </div>
+    </main>
+    <footer class="support-footer">
+     <span>
+      CalmWait • South Pavilion Clinic
+     </span>
+     <nav aria-label="More pages">
+      <a href="../sign-in/index.html">
+       Sign in
+      </a>
+      <a href="../about/index.html">
+       Profile
+      </a>
+      <a href="../reception/index.html">
+       Reception
+      </a>
+      <a href="../analytics/index.html">
+       Analytics
+      </a>
+      <a href="../caregiver/index.html">
+       Caregiver
+      </a>
+      <a href="../settings/index.html">
+       Settings
+      </a>
+     </nav>
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>

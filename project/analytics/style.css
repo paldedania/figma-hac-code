@@ -1,0 +1,23 @@
+/* Waiting-Room Operations & Flow Analytics: page-specific layout. Shared components live in css/global.css. */
+
+.transparency-layout { display: flex; align-items: center; gap: 40px; }
+.analytics-page .main-column { flex-basis: 66%; }
+.analytics-page .rail { flex-basis: 32%; }
+.chart-bars { display: flex; align-items: flex-end; gap: 8px; height: 260px; margin-top: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.chart-column { display: flex; flex: 1; flex-direction: column; justify-content: flex-end; align-items: center; gap: 8px; min-width: 0; text-align: center; }
+.hour-bar { width: 100%; background: #0a6e78; border-radius: 4px 4px 0 0; }
+.hour-2 { background: #d49d27; }
+.insight { padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+.insight:last-child { border-bottom: 0; padding-bottom: 0; }
+@media (max-width: 767px) { .transparency-layout { flex-direction: column; align-items: stretch; } .chart-bars { gap: 4px; } .chart-column .small { font-size: 10px; } }
+.hour-0 { height: 56px; }
+.hour-1 { height: 88px; }
+.hour-2 { height: 184px; }
+.hour-3 { height: 152px; }
+.hour-4 { height: 72px; }
+.hour-5 { height: 104px; }
+.hour-6 { height: 128px; }
+.hour-7 { height: 116px; }
+.hour-8 { height: 76px; }
+.hour-9 { height: 48px; }
+

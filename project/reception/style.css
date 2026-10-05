@@ -1,0 +1,9 @@
+/* Clinic Patient Stream: page-specific layout. Shared components live in css/global.css. */
+
+.staff-patients { display: flex; flex-direction: column; padding: 0; margin: 16px 0; list-style: none; }
+.staff-patients li { display: flex; gap: 16px; align-items: flex-start; padding: 20px 0; border-bottom: 1px solid var(--border); }
+.staff-patients li:nth-child(5) { padding: 20px 12px; background: var(--soft); }
+.staff-token { font-size: 20px; color: var(--accent); width: 52px; flex: 0 0 52px; }
+.scan-box { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 30px; background: var(--soft); border: 2px dashed var(--border); border-radius: 10px; }
+@media (max-width: 367px) { .staff-patients li { flex-wrap: wrap; } }
+
